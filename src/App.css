@@ -1,28 +1,37 @@
-.App {
+#root {
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  height: 80vh;
+  width: 80vw;
+  font-size: 150%;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 25px;
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+.clock {
+  font-size: 150%;
+  margin: 15px 0 30px 0;
 }
 
-.App-intro {
-  font-size: large;
+.list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.price {
+  margin-top: 30px;
 }

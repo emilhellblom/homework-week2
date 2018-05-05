@@ -1,6 +1,6 @@
 import React from 'react';
-// import './CheckoutButton.css';
+import './CheckoutButton.css';
 
 export const CheckoutButton = ({showCheckout}) => (
-  <button onClick={() => showCheckout()}>Checkout</button>
+  <button className='checkout-button' onClick={() => showCheckout()}>Checkout</button>
 );
